@@ -1,0 +1,12 @@
+[2016-10-10 08:45:09,132: WARNING/MainProcess] /vagrant/final_project/.env/lib/python3.5/site-packages/celery/fixups/django.py:265: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2016-10-10 08:45:09,134: WARNING/MainProcess] celery@precise64 ready.
+[2016-10-10 08:46:40,370: WARNING/MainProcess] /vagrant/final_project/.env/lib/python3.5/site-packages/celery/fixups/django.py:265: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2016-10-10 08:46:40,370: WARNING/MainProcess] celery@precise64 ready.
+[2016-10-10 08:51:55,978: WARNING/MainProcess] /vagrant/final_project/.env/lib/python3.5/site-packages/celery/fixups/django.py:265: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2016-10-10 08:51:55,979: WARNING/MainProcess] celery@precise64 ready.
+[2016-10-10 09:07:27,795: WARNING/MainProcess] /vagrant/final_project/.env/lib/python3.5/site-packages/celery/fixups/django.py:265: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2016-10-10 09:07:27,796: WARNING/MainProcess] celery@precise64 ready.

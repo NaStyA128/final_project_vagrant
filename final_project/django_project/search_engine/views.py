@@ -10,7 +10,8 @@ from .actions import *
 
 FORMAT = u'%(filename)s[LINE:%(lineno)d]# %(levelname)-8s ' \
          u'[%(asctime)s]  %(message)s'
-logging.basicConfig(format=FORMAT, level=logging.DEBUG, filename=u'logs.log')
+logging.basicConfig(format=FORMAT, level=logging.DEBUG,
+                    filename=u'django_logs.log')
 
 
 class HomeView(ListView, FormView):
