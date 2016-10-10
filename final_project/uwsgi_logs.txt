@@ -1,0 +1,798 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 09:25:01 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf7c050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf7c050 pid: 3602 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3602)
+spawned uWSGI worker 1 (pid: 3606, cores: 1)
+spawned uWSGI worker 2 (pid: 3607, cores: 1)
+spawned uWSGI worker 3 (pid: 3608, cores: 1)
+spawned uWSGI worker 4 (pid: 3609, cores: 1)
+spawned uWSGI worker 5 (pid: 3610, cores: 1)
+spawned uWSGI worker 6 (pid: 3611, cores: 1)
+spawned uWSGI worker 7 (pid: 3612, cores: 1)
+spawned uWSGI worker 8 (pid: 3613, cores: 1)
+spawned uWSGI worker 9 (pid: 3614, cores: 1)
+spawned uWSGI worker 10 (pid: 3615, cores: 1)
+Fri Oct  7 09:28:53 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:28:53 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 09:31:08 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x192d050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x192d050 pid: 3660 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3660)
+spawned uWSGI worker 1 (pid: 3664, cores: 1)
+spawned uWSGI worker 2 (pid: 3665, cores: 1)
+spawned uWSGI worker 3 (pid: 3666, cores: 1)
+spawned uWSGI worker 4 (pid: 3667, cores: 1)
+spawned uWSGI worker 5 (pid: 3668, cores: 1)
+spawned uWSGI worker 6 (pid: 3669, cores: 1)
+spawned uWSGI worker 7 (pid: 3670, cores: 1)
+spawned uWSGI worker 8 (pid: 3671, cores: 1)
+spawned uWSGI worker 9 (pid: 3672, cores: 1)
+spawned uWSGI worker 10 (pid: 3673, cores: 1)
+Fri Oct  7 09:52:49 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:52:49 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 09:53:22 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14ea050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x14ea050 pid: 3726 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3726)
+spawned uWSGI worker 1 (pid: 3731, cores: 1)
+spawned uWSGI worker 2 (pid: 3732, cores: 1)
+spawned uWSGI worker 3 (pid: 3733, cores: 1)
+spawned uWSGI worker 4 (pid: 3734, cores: 1)
+spawned uWSGI worker 5 (pid: 3735, cores: 1)
+spawned uWSGI worker 6 (pid: 3736, cores: 1)
+spawned uWSGI worker 7 (pid: 3737, cores: 1)
+spawned uWSGI worker 8 (pid: 3738, cores: 1)
+spawned uWSGI worker 9 (pid: 3739, cores: 1)
+spawned uWSGI worker 10 (pid: 3740, cores: 1)
+Fri Oct  7 09:56:45 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 09:56:45 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 09:56:56 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x13ad050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x13ad050 pid: 3798 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3798)
+spawned uWSGI worker 1 (pid: 3802, cores: 1)
+spawned uWSGI worker 2 (pid: 3803, cores: 1)
+spawned uWSGI worker 3 (pid: 3804, cores: 1)
+spawned uWSGI worker 4 (pid: 3805, cores: 1)
+spawned uWSGI worker 5 (pid: 3806, cores: 1)
+spawned uWSGI worker 6 (pid: 3807, cores: 1)
+spawned uWSGI worker 7 (pid: 3808, cores: 1)
+spawned uWSGI worker 8 (pid: 3809, cores: 1)
+spawned uWSGI worker 9 (pid: 3810, cores: 1)
+spawned uWSGI worker 10 (pid: 3811, cores: 1)
+Fri Oct  7 11:10:00 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:00 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:10:31 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b8e050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1b8e050 pid: 3876 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3876)
+spawned uWSGI worker 1 (pid: 3881, cores: 1)
+spawned uWSGI worker 2 (pid: 3882, cores: 1)
+spawned uWSGI worker 3 (pid: 3883, cores: 1)
+spawned uWSGI worker 4 (pid: 3884, cores: 1)
+spawned uWSGI worker 5 (pid: 3885, cores: 1)
+spawned uWSGI worker 6 (pid: 3886, cores: 1)
+spawned uWSGI worker 7 (pid: 3887, cores: 1)
+spawned uWSGI worker 8 (pid: 3888, cores: 1)
+spawned uWSGI worker 9 (pid: 3889, cores: 1)
+spawned uWSGI worker 10 (pid: 3890, cores: 1)
+Fri Oct  7 11:10:44 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:10:44 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:15:22 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1902050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1902050 pid: 3923 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3923)
+spawned uWSGI worker 1 (pid: 3927, cores: 1)
+spawned uWSGI worker 2 (pid: 3928, cores: 1)
+spawned uWSGI worker 3 (pid: 3929, cores: 1)
+spawned uWSGI worker 4 (pid: 3930, cores: 1)
+spawned uWSGI worker 5 (pid: 3931, cores: 1)
+spawned uWSGI worker 6 (pid: 3932, cores: 1)
+spawned uWSGI worker 7 (pid: 3933, cores: 1)
+spawned uWSGI worker 8 (pid: 3934, cores: 1)
+spawned uWSGI worker 9 (pid: 3935, cores: 1)
+spawned uWSGI worker 10 (pid: 3936, cores: 1)
+Fri Oct  7 11:19:43 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:19:43 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:20:21 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2494050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x2494050 pid: 3987 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3987)
+spawned uWSGI worker 1 (pid: 3991, cores: 1)
+spawned uWSGI worker 2 (pid: 3992, cores: 1)
+spawned uWSGI worker 3 (pid: 3993, cores: 1)
+spawned uWSGI worker 4 (pid: 3994, cores: 1)
+spawned uWSGI worker 5 (pid: 3995, cores: 1)
+spawned uWSGI worker 6 (pid: 3996, cores: 1)
+spawned uWSGI worker 7 (pid: 3997, cores: 1)
+spawned uWSGI worker 8 (pid: 3998, cores: 1)
+spawned uWSGI worker 9 (pid: 3999, cores: 1)
+spawned uWSGI worker 10 (pid: 4000, cores: 1)
+Fri Oct  7 11:24:06 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:24:06 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:24:17 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x739050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x739050 pid: 4054 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4054)
+spawned uWSGI worker 1 (pid: 4058, cores: 1)
+spawned uWSGI worker 2 (pid: 4059, cores: 1)
+spawned uWSGI worker 3 (pid: 4060, cores: 1)
+spawned uWSGI worker 4 (pid: 4061, cores: 1)
+spawned uWSGI worker 5 (pid: 4062, cores: 1)
+spawned uWSGI worker 6 (pid: 4063, cores: 1)
+spawned uWSGI worker 7 (pid: 4064, cores: 1)
+spawned uWSGI worker 8 (pid: 4065, cores: 1)
+spawned uWSGI worker 9 (pid: 4066, cores: 1)
+spawned uWSGI worker 10 (pid: 4067, cores: 1)
+Fri Oct  7 11:29:25 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:29:25 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:29:35 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1f1c050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1f1c050 pid: 4111 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4111)
+spawned uWSGI worker 1 (pid: 4115, cores: 1)
+spawned uWSGI worker 2 (pid: 4116, cores: 1)
+spawned uWSGI worker 3 (pid: 4117, cores: 1)
+spawned uWSGI worker 4 (pid: 4118, cores: 1)
+spawned uWSGI worker 5 (pid: 4119, cores: 1)
+spawned uWSGI worker 6 (pid: 4120, cores: 1)
+spawned uWSGI worker 7 (pid: 4121, cores: 1)
+spawned uWSGI worker 8 (pid: 4122, cores: 1)
+spawned uWSGI worker 9 (pid: 4123, cores: 1)
+spawned uWSGI worker 10 (pid: 4124, cores: 1)
+Fri Oct  7 11:33:15 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 11:33:15 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 11:33:27 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1464050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1464050 pid: 4163 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4163)
+spawned uWSGI worker 1 (pid: 4169, cores: 1)
+spawned uWSGI worker 2 (pid: 4170, cores: 1)
+spawned uWSGI worker 3 (pid: 4171, cores: 1)
+spawned uWSGI worker 4 (pid: 4172, cores: 1)
+spawned uWSGI worker 5 (pid: 4173, cores: 1)
+spawned uWSGI worker 6 (pid: 4174, cores: 1)
+spawned uWSGI worker 7 (pid: 4175, cores: 1)
+spawned uWSGI worker 8 (pid: 4176, cores: 1)
+spawned uWSGI worker 9 (pid: 4177, cores: 1)
+spawned uWSGI worker 10 (pid: 4178, cores: 1)
+[pid: 4170|app: 0|req: 1/1] 10.0.2.2 () {42 vars in 749 bytes} [Fri Oct  7 12:03:45 2016] GET / => generated 1408 bytes in 219 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 0)
+[pid: 4177|app: 0|req: 1/2] 10.0.2.2 () {40 vars in 730 bytes} [Fri Oct  7 12:03:50 2016] GET /admin/ => generated 6503 bytes in 258 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 4178|app: 0|req: 1/3] 10.0.2.2 () {42 vars in 812 bytes} [Fri Oct  7 12:03:52 2016] GET /admin/search_engine/task/ => generated 5225 bytes in 296 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4173|app: 0|req: 1/4] 10.0.2.2 () {40 vars in 712 bytes} [Fri Oct  7 12:03:53 2016] GET /admin/jsi18n/ => generated 3189 bytes in 184 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4171|app: 0|req: 1/5] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:03:53 2016] GET /admin/jsi18n/ => generated 3189 bytes in 90 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4176|app: 0|req: 1/6] 10.0.2.2 () {42 vars in 849 bytes} [Fri Oct  7 12:03:59 2016] GET /admin/search_engine/task/1/change/ => generated 6378 bytes in 265 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4177|app: 0|req: 2/7] 10.0.2.2 () {40 vars in 721 bytes} [Fri Oct  7 12:03:59 2016] GET /admin/jsi18n/ => generated 3189 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4177|app: 0|req: 3/8] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:04:00 2016] GET /admin/jsi18n/ => generated 3189 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4178|app: 0|req: 2/9] 10.0.2.2 () {42 vars in 812 bytes} [Fri Oct  7 12:04:04 2016] GET /admin/search_engine/task/ => generated 5225 bytes in 65 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4169|app: 0|req: 1/10] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:04:05 2016] GET /admin/jsi18n/ => generated 3189 bytes in 97 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4170|app: 0|req: 2/11] 10.0.2.2 () {44 vars in 843 bytes} [Fri Oct  7 12:04:35 2016] GET /admin/search_engine/task/ => generated 5225 bytes in 82 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4176|app: 0|req: 2/12] 10.0.2.2 () {42 vars in 743 bytes} [Fri Oct  7 12:04:36 2016] GET /admin/jsi18n/ => generated 3189 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 93 bytes (2 switches on core 0)
+[pid: 4174|app: 0|req: 1/13] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:04:36 2016] GET /admin/jsi18n/ => generated 3189 bytes in 91 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4172|app: 0|req: 1/14] 10.0.2.2 () {44 vars in 843 bytes} [Fri Oct  7 12:04:37 2016] GET /admin/search_engine/task/ => generated 5225 bytes in 184 msecs (HTTP/1.1 200) 7 headers in 405 bytes (2 switches on core 0)
+[pid: 4177|app: 0|req: 4/15] 10.0.2.2 () {42 vars in 743 bytes} [Fri Oct  7 12:04:37 2016] GET /admin/jsi18n/ => generated 3189 bytes in 26 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4169|app: 0|req: 2/16] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:04:37 2016] GET /admin/jsi18n/ => generated 3189 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4178|app: 0|req: 3/17] 10.0.2.2 () {40 vars in 758 bytes} [Fri Oct  7 12:04:47 2016] GET /admin/search_engine/ => generated 2691 bytes in 403 msecs (HTTP/1.1 200) 6 headers in 251 bytes (2 switches on core 0)
+[pid: 4173|app: 0|req: 2/18] 10.0.2.2 () {42 vars in 826 bytes} [Fri Oct  7 12:04:48 2016] GET /admin/search_engine/task/ => generated 5225 bytes in 159 msecs (HTTP/1.1 200) 7 headers in 405 bytes (2 switches on core 0)
+[pid: 4171|app: 0|req: 2/19] 10.0.2.2 () {40 vars in 712 bytes} [Fri Oct  7 12:04:48 2016] GET /admin/jsi18n/ => generated 3189 bytes in 32 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4176|app: 0|req: 3/20] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:04:49 2016] GET /admin/jsi18n/ => generated 3189 bytes in 24 msecs (HTTP/1.1 200) 3 headers in 93 bytes (2 switches on core 0)
+Fri Oct  7 12:05:04 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 12:05:04 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 12:06:01 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c45050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1c45050 pid: 4279 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4279)
+spawned uWSGI worker 1 (pid: 4283, cores: 1)
+spawned uWSGI worker 2 (pid: 4284, cores: 1)
+spawned uWSGI worker 3 (pid: 4285, cores: 1)
+spawned uWSGI worker 4 (pid: 4286, cores: 1)
+spawned uWSGI worker 5 (pid: 4287, cores: 1)
+spawned uWSGI worker 6 (pid: 4288, cores: 1)
+spawned uWSGI worker 7 (pid: 4289, cores: 1)
+spawned uWSGI worker 8 (pid: 4290, cores: 1)
+spawned uWSGI worker 9 (pid: 4291, cores: 1)
+spawned uWSGI worker 10 (pid: 4292, cores: 1)
+[pid: 4288|app: 0|req: 1/1] 10.0.2.2 () {44 vars in 857 bytes} [Fri Oct  7 12:06:10 2016] GET /admin/search_engine/task/ => generated 5419 bytes in 257 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4288|app: 0|req: 2/2] 10.0.2.2 () {42 vars in 743 bytes} [Fri Oct  7 12:06:10 2016] GET /admin/jsi18n/ => generated 3189 bytes in 27 msecs (HTTP/1.1 200) 3 headers in 93 bytes (2 switches on core 0)
+[pid: 4289|app: 0|req: 1/3] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:06:10 2016] GET /admin/jsi18n/ => generated 3189 bytes in 100 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4285|app: 0|req: 1/4] 10.0.2.2 () {42 vars in 849 bytes} [Fri Oct  7 12:06:13 2016] GET /admin/search_engine/task/1/change/ => generated 6378 bytes in 226 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 4287|app: 0|req: 1/5] 10.0.2.2 () {40 vars in 721 bytes} [Fri Oct  7 12:06:13 2016] GET /admin/jsi18n/ => generated 3189 bytes in 111 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4291|app: 0|req: 1/6] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:06:14 2016] GET /admin/jsi18n/ => generated 3189 bytes in 111 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4292|app: 0|req: 1/7] 10.0.2.2 () {42 vars in 840 bytes} [Fri Oct  7 12:06:18 2016] GET /admin/search_engine/task/ => generated 5419 bytes in 257 msecs (HTTP/1.1 200) 7 headers in 405 bytes (2 switches on core 0)
+[pid: 4283|app: 0|req: 1/8] 10.0.2.2 () {40 vars in 712 bytes} [Fri Oct  7 12:06:19 2016] GET /admin/jsi18n/ => generated 3189 bytes in 122 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4287|app: 0|req: 2/9] 10.0.2.2 () {42 vars in 762 bytes} [Fri Oct  7 12:06:19 2016] GET /admin/jsi18n/ => generated 3189 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 4291|app: 0|req: 2/10] 10.0.2.2 () {40 vars in 718 bytes} [Fri Oct  7 13:22:35 2016] GET / => generated 1408 bytes in 111 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 0)
+Fri Oct  7 14:08:51 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:08:51 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 14:09:26 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d7a050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1d7a050 pid: 4488 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4488)
+spawned uWSGI worker 1 (pid: 4492, cores: 1)
+spawned uWSGI worker 2 (pid: 4493, cores: 1)
+spawned uWSGI worker 3 (pid: 4494, cores: 1)
+spawned uWSGI worker 4 (pid: 4495, cores: 1)
+spawned uWSGI worker 5 (pid: 4496, cores: 1)
+spawned uWSGI worker 6 (pid: 4497, cores: 1)
+spawned uWSGI worker 7 (pid: 4498, cores: 1)
+spawned uWSGI worker 8 (pid: 4499, cores: 1)
+spawned uWSGI worker 9 (pid: 4500, cores: 1)
+spawned uWSGI worker 10 (pid: 4501, cores: 1)
+Fri Oct  7 14:11:08 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:11:08 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 14:21:10 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xa4c050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xa4c050 pid: 4547 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4547)
+spawned uWSGI worker 1 (pid: 4551, cores: 1)
+spawned uWSGI worker 2 (pid: 4552, cores: 1)
+spawned uWSGI worker 3 (pid: 4553, cores: 1)
+spawned uWSGI worker 4 (pid: 4554, cores: 1)
+spawned uWSGI worker 5 (pid: 4555, cores: 1)
+spawned uWSGI worker 6 (pid: 4556, cores: 1)
+spawned uWSGI worker 7 (pid: 4557, cores: 1)
+spawned uWSGI worker 8 (pid: 4558, cores: 1)
+spawned uWSGI worker 9 (pid: 4559, cores: 1)
+spawned uWSGI worker 10 (pid: 4560, cores: 1)
+Fri Oct  7 14:42:18 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:42:18 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 14:42:27 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1906050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1906050 pid: 4622 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4622)
+spawned uWSGI worker 1 (pid: 4626, cores: 1)
+spawned uWSGI worker 2 (pid: 4627, cores: 1)
+spawned uWSGI worker 3 (pid: 4628, cores: 1)
+spawned uWSGI worker 4 (pid: 4629, cores: 1)
+spawned uWSGI worker 5 (pid: 4630, cores: 1)
+spawned uWSGI worker 6 (pid: 4631, cores: 1)
+spawned uWSGI worker 7 (pid: 4632, cores: 1)
+spawned uWSGI worker 8 (pid: 4633, cores: 1)
+spawned uWSGI worker 9 (pid: 4634, cores: 1)
+spawned uWSGI worker 10 (pid: 4635, cores: 1)
+Fri Oct  7 14:48:56 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:48:56 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 14:49:38 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x83e050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x83e050 pid: 4673 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4673)
+spawned uWSGI worker 1 (pid: 4682, cores: 1)
+spawned uWSGI worker 2 (pid: 4683, cores: 1)
+spawned uWSGI worker 3 (pid: 4684, cores: 1)
+spawned uWSGI worker 4 (pid: 4685, cores: 1)
+spawned uWSGI worker 5 (pid: 4686, cores: 1)
+spawned uWSGI worker 6 (pid: 4687, cores: 1)
+spawned uWSGI worker 7 (pid: 4688, cores: 1)
+spawned uWSGI worker 8 (pid: 4689, cores: 1)
+spawned uWSGI worker 9 (pid: 4690, cores: 1)
+spawned uWSGI worker 10 (pid: 4691, cores: 1)
+Fri Oct  7 14:52:06 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:52:06 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Oct  7 14:52:15 2016] ***
+compiled with version: 4.6.3 on 04 October 2016 13:26:03
+os: Linux-3.2.0-23-generic #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012
+nodename: precise64
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /vagrant/final_project
+detected binary path: /vagrant/final_project/.env/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /vagrant/final_project/django_project
+your processes number limit is 2782
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/django_project.sock fd 3
+Python version: 3.5.2 (default, Jul 17 2016, 17:43:04)  [GCC 4.6.3]
+Set PythonHome to /vagrant/final_project/.env
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26ca050
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 800448 bytes (781 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x26ca050 pid: 4743 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4743)
+spawned uWSGI worker 1 (pid: 4754, cores: 1)
+spawned uWSGI worker 2 (pid: 4755, cores: 1)
+spawned uWSGI worker 3 (pid: 4756, cores: 1)
+spawned uWSGI worker 4 (pid: 4757, cores: 1)
+spawned uWSGI worker 5 (pid: 4758, cores: 1)
+spawned uWSGI worker 6 (pid: 4759, cores: 1)
+spawned uWSGI worker 7 (pid: 4760, cores: 1)
+spawned uWSGI worker 8 (pid: 4761, cores: 1)
+spawned uWSGI worker 9 (pid: 4762, cores: 1)
+spawned uWSGI worker 10 (pid: 4763, cores: 1)
+Fri Oct  7 14:53:37 2016 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 10 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 9 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Oct  7 14:53:37 2016 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!

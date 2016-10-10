@@ -1,0 +1,55 @@
+
+{% load i18n %}
+
+{% block content %}
+
+    {% if task %}
+    <br><h3 class="h3-keyword">{{ task.keywords }}</h3><br>
+    {% endif %}
+
+    <div class="row">
+        {% if images %}
+            {% for image in images %}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="img-wrapper"><img src="{{ image.image_url }}" alt=""></div>
+                    <div class="caption">
+                        <a href="{{ image.image_url }}">Source</a><br>
+                        <a href="{{ image.site.site_url }}">{{ image.site.site_url }}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    {% if is_paginated %}
+        <div class="pager">
+            {% if page_obj.has_previous %}
+                <li><a href="?page={{ page_obj.previous_page_number }}">{% trans "Prev" %}</a></li>
+            {% endif %}
+            {% if page_obj.has_next %}
+                <li><a href="?page={{ page_obj.next_page_number }}">{% trans "Next" %}</a></li>
+            {% endif %}
+        </div>
+    {% endif %}
+
+    <script>
+        // using jQuery
+        $('div.pager li a').bind('click', function(e){
+            e.preventDefault();
+            href = $(this).attr('href');
+            word = $('h3.h3-keyword').text()
+            $.ajax({
+                url: "/"+word+"/"+href,
+                type: "GET",
+                data: ({}),
+                dataType: "html",
+                success: function(data){
+                    $('div.result-images').html(data);
+                }
+            });
+        });
+    </script>
+
+{% endblock content %}
